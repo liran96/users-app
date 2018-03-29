@@ -1,0 +1,72 @@
+[
+    {
+      "picture": "https://picsum.photos/200/300/?random+1",
+      "age": 38,
+      "name": "Raymond Gallegos",
+      "gender": "male",
+      "company": "BYTREX",
+      "email": "raymondgallegos@bytrex.com",
+      "phone": "+1 (981) 467-3453",
+      "address": "754 Village Road, Dargan, Massachusetts, 4709"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+2",
+      "age": 22,
+      "name": "Brandy Terrell",
+      "gender": "female",
+      "company": "PHEAST",
+      "email": "brandyterrell@pheast.com",
+      "phone": "+1 (862) 584-3077",
+      "address": "434 Meserole Avenue, Fillmore, Kentucky, 4339"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+3",
+      "age": 26,
+      "name": "Luella Cleveland",
+      "gender": "female",
+      "company": "SPRINGBEE",
+      "email": "luellacleveland@springbee.com",
+      "phone": "+1 (932) 536-2331",
+      "address": "525 Sullivan Place, Marshall, Louisiana, 164"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+4",
+      "age": 39,
+      "name": "Foster Clay",
+      "gender": "male",
+      "company": "ARCTIQ",
+      "email": "fosterclay@arctiq.com",
+      "phone": "+1 (954) 580-3132",
+      "address": "905 Windsor Place, Maury, Pennsylvania, 4467"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+5",
+      "age": 23,
+      "name": "Lynn Cameron",
+      "gender": "male",
+      "company": "ZENSURE",
+      "email": "lynncameron@zensure.com",
+      "phone": "+1 (956) 536-2632",
+      "address": "261 Stoddard Place, Guilford, Texas, 8331"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+6",
+      "age": 40,
+      "name": "Brooke Dunn",
+      "gender": "female",
+      "company": "REVERSUS",
+      "email": "brookedunn@reversus.com",
+      "phone": "+1 (829) 486-2390",
+      "address": "292 Dwight Street, Sexton, Washington, 791"
+    },
+    {
+      "picture": "https://picsum.photos/200/300/?random+7",
+      "age": 27,
+      "name": "Eloise Gillespie",
+      "gender": "female",
+      "company": "EXOSWITCH",
+      "email": "eloisegillespie@exoswitch.com",
+      "phone": "+1 (957) 458-2216",
+      "address": "165 Crown Street, Stockdale, North Carolina, 7680"
+    }
+  ]

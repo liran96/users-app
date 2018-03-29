@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="usersApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.8/angular-material.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.8/angular-material.css">
+    <title>Users app</title>
+</head>
+
+<body ng-controller="usersCtrl as ctrl">
+    <md-list>
+        <md-subheader class="md-no-sticky">Avatar with Secondary Action Icon</md-subheader>
+        <md-list-item ng-repeat="user in ctrl.users" ng-click="goToPerson(person.name, $event)" class="noright">
+            <img alt="{{ user.name }}" ng-src="{{ user.picture }}" class="md-avatar" />
+            <span>{{user.name}}</span>
+            <span>{{user.age}}</span>
+            <span>{{user.phone}}</span>
+            <span>{{user.email}}</span>
+            <span>{{user.address}}</span>
+            <span>{{user.company}}</span>
+
+        </md-list-item>
+    </md-list>
+    <!-- <div layout ng-repeat="user in ctrl.users">
+        <img ng-src="{{user.picture}}" alt="{{user.name}}" class="avatar">
+        <span>{{user.name}}</span>
+        <span>{{user.age}}</span>
+        <span>{{user.phone}}</span>
+        <span>{{user.email}}</span>
+        <span>{{user.address}}</span>
+        <span>{{user.company}}</span>
+    </div> -->
+    <script src="./js/module.js"></script>
+    <script src="./js/users.service.js"></script>
+    <script src="./js/users.controller.js"></script>
+    <link rel="stylesheet" href="">
+</body>
+
+</html>
